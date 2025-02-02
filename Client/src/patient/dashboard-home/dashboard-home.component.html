@@ -1,0 +1,41 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="card mt-2">
+      <button class="btn py-1 px-2"><i class="fas fa-edit"></i> Edit</button>
+      <div class="doctor w-100 p-2 d-flex flex-row align-items-center">
+        <div class="doc-image">
+          <img class="border border-secondary rounded-circle p-1" [src]='"../../assets/images/patient.png"' alt="Doctor Image" width="150px" height="150px">
+        </div>
+        <div class="doc-info d-flex flex-column">
+          <div class="info-row">
+            <b>Patient ID: </b><span>{{PatientDetails.patID}}</span>
+          </div>
+          <div class="info-row">
+            <b>Full Name: </b><span>{{PatientDetails.fName}} {{PatientDetails.lName}}</span>
+          </div>
+          <div class="info-row">
+            <b>Age: </b><span>{{PatientDetails.age}}</span>
+          </div>
+          <div class="info-row">
+            <b>Sex: </b><span>{{PatientDetails.sex}}</span>
+          </div>
+          <div class="info-row">
+            <b>Email: </b><span>{{PatientDetails.emailID}}</span>
+          </div>
+          <div class="info-row">
+            <b>Account Balance: </b><span>{{AccountBalance | currency:'ETH '}}</span>
+          </div>
+          <div class="info-row">
+            <b>Phone: </b><span>{{PatientDetails.phone}}</span>
+          </div>
+          <div class="info-row">
+            <b>City: </b><span>{{PatientDetails.city}}</span>
+          </div>
+          <div class="info-row">
+            <b>State: </b><span>{{PatientDetails.state}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

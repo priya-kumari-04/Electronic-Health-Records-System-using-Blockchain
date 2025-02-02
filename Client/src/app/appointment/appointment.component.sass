@@ -1,0 +1,61 @@
+.container-fluid
+  height: 100vh
+  width: 100%
+  background-color: #d0d2dc
+  padding-top: 4rem
+
+.container
+  height: 100%
+  font-family: 'Geist', sans-serif
+
+.row
+  justify-content: center
+  align-items: center
+
+.appointment
+  margin-top: 25px
+  padding: 25px
+  border-radius: 15px
+  background-color: #fff
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px
+  filter: alpha(opacity=50)
+
+  h2
+    font-size: 24px
+    font-weight: 600
+    color: #333
+    margin-bottom: 20px
+    text-align: center
+
+  label
+    font-size: 14px
+    font-weight: 500
+    color: #555
+
+  input, select
+    width: 100%
+    padding: 0.75rem
+    border: 1px solid #e5e5e5
+    border-radius: 4px
+    font-size: 1rem
+    transition: border-color 0.3s
+
+    &::placeholder
+      opacity: 50%
+
+    &:focus
+      border-color: #f1bd61
+
+  button[type="submit"]
+    background-color: #2D57EB
+    color: #fffdfa
+    padding: 0.75rem 1rem
+    border-radius: 4px
+    font-size: 1rem
+    border: 1px solid #2D57EB
+    transition: background-color 0.5s ease-in-out reverse
+    margin-top: 1rem
+
+    &:hover
+      background-color: #2D57EB
+      box-shadow: 0 8px 2rem -0.5rem #2D57EB

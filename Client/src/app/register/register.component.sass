@@ -1,0 +1,55 @@
+.container-fluid
+  height: 100vh
+  background-size: cover
+
+  .container
+    display: flex
+    justify-content: center
+    align-items: center
+    font-family: 'Geist', sans-serif
+
+    .register
+      width: 60%
+      border-radius: 1rem
+      background-color: rgba(254, 212, 160, 0.6)
+      filter: alpha(opacity=50)
+      padding: 2rem 4rem
+
+      .h3
+        padding-bottom: 1rem
+
+      .form-group
+        margin-bottom: 15px
+
+        label
+          margin-bottom: 5px
+          color: #2d3d4b
+
+        input
+          width: 100%
+          padding: 0.75rem
+          border: 1px solid #e5e5e5
+          border-radius: 4px
+          font-size: 1rem
+          transition: border-color 0.3s
+          
+          &::placeholder
+            opacity: 50%
+
+          &:focus
+            border-color: #f1bd61
+
+      .btn-primary
+        background-color: #f1bd61
+        color: #2d3d4b
+        padding: 0.75rem 1rem
+        border-radius: 4px
+        font-size: 1rem
+        border: 1px solid #f1bd61
+        transition: background-color 0.3s ease, box-shadow 0.3s ease
+        margin-top: 1rem
+
+        &:hover
+          background-color: #edaa36
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+
